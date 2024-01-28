@@ -1,0 +1,150 @@
+/* nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #1b2430;
+  padding: 20px 8 0px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.0.6);
+  
+
+} 
+ #navbar
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+#navbar li{
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+#navbar li a{
+   text-decoration: none; 
+   font-size: 1.3rem;
+   font-weight: 600;
+   color:#fff;
+   transition: 0.3s ease-in-out;
+}
+#navbar li a:hover,
+#navbar li a.active{
+  color: #17cf97;
+} 
+#navbar li a:hover::after,
+#navbar li a.active::after
+
+{
+  content: "";
+  width: 30%;
+  height:2px;
+  background-color: #17cf97;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+
+}
+#mobile
+{
+  display: none;
+}
+#mobile i
+{
+ color: #fff;
+}
+@media screen   and (max-width:769px){
+  #navbar
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top:90px;
+    right:-300px ;
+    width: 300px;
+    height: 100vh;
+    background: #2a3239;
+    box-shadow: 0 40px 60px rgba(0,0,0,0.0.1);
+    padding: 40px 0 0 10px;
+     transition: 0.3s ease-in-out ; 
+    
+  }
+  #navbar 
+  {
+    margin-bottom: 25px;
+  }
+  #navbar li{
+    margin-bottom: 25px;
+  }
+  #navbar.active
+  {
+    right: 0px ;
+  }
+  #mobile
+  {
+    display: block;
+  }
+  #mobile i
+  {
+    font-size: 24px;
+    cursor: pointer;
+  }
+} */
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.hed
+{
+    padding: 30px 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+ 
+}
+.hed .log h2
+{
+    color: #0cc0df;
+    font-size: 32px;
+    cursor: pointer;
+}
+.hed .log h2 span{
+    color:#fe4a55;
+    font-size:  50px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+.hed .fgf{
+    display: flex;
+    margin-bottom: 25px;
+    
+}
+.lil{
+    list-style: none;
+    margin-right: 20px;
+    color: white;
+}
+ .ght{
+    text-decoration: none;
+    color: #770038;
+    font-family: cursive;
+    font-weight: 700;
+}
+  .ght:hover{
+   
+    color: #0cdf28;
+   
+}
+ .fgf .lil .ght:hover::after
+{
+ 
+  background-color: #00028f;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+
