@@ -1,0 +1,36 @@
+/* Add this to your styles.css or use a styling solution like Styled Components */
+
+.tr
+{
+    padding-top: 100px;
+}
+.message-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    max-width: 500px; /* Set a maximum width for the message container */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .sender {
+    font-weight: bold;
+  }
+  
+  .content {
+    margin-top: 10px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* Responsive styles using media queries */
+  @media screen and (max-width: 600px) {
+    .message-container {
+      max-width: 100%; /* Make the message container full width on small screens */
+    }
+  }
+  
