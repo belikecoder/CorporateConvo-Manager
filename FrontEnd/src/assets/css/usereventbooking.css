@@ -1,0 +1,75 @@
+/* EventBookingForm.css */
+
+.event-booking-form-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .form-title {
+    text-align: center;
+    font-family: fantasy;
+    font-weight: 500;
+    opacity: 0.65;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .event-booking-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%; /* Make inputs and textarea full-width */
+  }
+  
+  label {
+    width: 100%;
+  }
+  
+  .bts {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; /* Make the button full-width */
+  }
+  
+  .bts:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 400px) {
+    input,
+    textarea {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .event-booking-form-container {
+      max-width: 80%;
+    }
+  }
+  
